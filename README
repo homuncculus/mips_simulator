@@ -1,0 +1,38 @@
+########################################################################
+# topic      : MIPS Simulator
+# author     : Vaibhav Kaushik (vaibhav1997kaushik@gmail.com)
+# file       : Readme
+# date       : 21/11/2017
+########################################################################
+
+==[ Summary ]===========================================================
+
+This program will demonstrate a single-cycle CPU based on MIPS
+assembly code.
+
+==[ Files ]=============================================================
+
+README      		This file.
+main.c	      		Main entry point file and single cycle CPU simulation.
+alu.c			ALU functions.
+alu.h			ALU functions header.
+assembler.c		Machine code assembly functions.
+assembler.h		Machine code assembly header.
+control.c		Control unit functions.
+control.h		Control unit header.
+gate.c			Gate logic functions.
+gate.h			Gate logic header.
+gatedriver.c		Gate driver test functions.
+gatedriver.h		Gate driver test header.
+loader.c		Machine code loader function.
+loader.h		Machine code loader header.
+memory.c		Memory file accessor.
+memory.h		Memory file accessor header.
+mux.c			Multiplexer logic functions.
+mux.h			Multiplexer logic header.
+rcadder.c		Ripple carry adder logic functions.
+rcadder.h		Ripple carry adder logic header.
+regfileaccess.c		Register file access function.
+regfileaccess.h		Register file access header.
+signal.c		Signal type definitions and helper functions.
+signal.h		Signal type definitions and helper functions header.
